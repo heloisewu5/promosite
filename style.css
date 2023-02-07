@@ -1,0 +1,90 @@
+* {
+	box-sizing:border-box;
+}
+
+
+body, html {
+	padding: 0px;
+	margin: 50px;
+	font-family: monospace;
+}
+
+h1 {
+  font-size: 100px;
+  text-shadow: 5px 5px #558ABB;
+}
+
+
+body {
+	background-color: #222;
+	color: hotpink;
+}
+
+.container {
+	display:flex;
+	column-gap: 20px;
+}
+
+
+.box-1 {
+  height: 250px;
+  width: 280px;
+  background-color: transparent;
+  margin: 20px;
+  border: 0.5px solid; #fff;
+  box-shadow: 8px 8px 5px #444;
+  padding: 20px 15px;
+}
+
+.box-2 {
+  height: 320px;
+  width: 310px;
+  background-color: transparent;
+  margin-left: 400px;
+  margin-top: 20px;
+  border: 0.5px solid; #fff;
+  box-shadow: 8px 8px 5px #444;
+  padding: 25px 15px;
+}
+
+.box-3 {
+  height: 320px;
+  width: 310px;
+  background-color: transparent;
+  margin-left: 800px;
+  margin-top: -600px;
+  border: 0.5px solid; #fff;
+  box-shadow: 8px 8px 5px #444;
+  padding: 20px 15px;
+}
+
+.box-4 {
+  height: 320px;
+  width: 310px;
+  background-color: transparent;
+  margin-left: 800px;
+  margin-top: 300px;
+  border: 0.5px solid; #fff;
+  box-shadow: 8px 8px 5px #444;
+  padding: 20px 15px;
+}
+
+.box-5 {
+  height: 320px;
+  width: 310px;
+  background-color: transparent;
+  margin-left: 40px;
+  margin-top: -380px;
+  border: 0.5px solid; #fff;
+  box-shadow: 8px 8px 5px #444;
+  padding: 20px 15px;
+}
+
+.box-6text {
+  height: 200px;
+  width: 800px;
+  background-color: transparent;
+  margin-left: 480px;
+  margin-top: -1050px;
+  border: 1px transparent;
+}
